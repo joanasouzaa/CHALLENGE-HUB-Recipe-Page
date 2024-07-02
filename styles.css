@@ -45,6 +45,10 @@ p, li{
     color: hsl(24, 5%, 18%);
 }
 
+.container article{
+    padding: 1.5rem;
+}
+
 .banner article{
     background-color: hsl(330, 100%, 98%);
     border-radius: 20px;
