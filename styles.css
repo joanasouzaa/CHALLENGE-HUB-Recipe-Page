@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+
+.container{
+    max-width:700px;
+    margin-inline: auto;
+    background-color: hsl(0, 0%, 100%);
+}
+
+img{
+    max-width: 100%;
+}
+
+h1, h2{
+    font-family: 'Young Serif', sans-serif;
+    letter-spacing: 0.1rem;
+}
+
+ul, ol{
+    padding-left: 20px;
+}
+
+li{
+    margin-top: 1rem
+}
+
+h2, .instrucoes li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+p, li{
+    line-height: 1.6;
+    color: hsl(24, 5%, 18%);
+}
+
+.banner article{
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 20px;
+    margin-top: 1.5rem
+}
+
+.banner article h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+}
+
+.container div:not(:first-child){
+    padding: 1.5rem;
+}
+
+.banner h1{
+    margin-bottom: 1rem;
+}
+
+.instrucoes{
+    border-top: 1px solid hsl(30, 18%, 87%);
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+.nutricao p{
+    margin-top: 1rem;
+}
+
+.nutricao ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 0.5rem 0;
+}
+
+.nutricao ul li:last-child{
+    border-bottom: none;
+}
+
+.nutricao li span{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+    margin-bottom: 5rem;
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+    }
+
+@media (min-width: 768px) {
+    .container{
+        margin: 5rem auto;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    img{
+        border-radius:1rem ;
+    }
+
+    .banner h1{
+        font-size: 36px;
+    }
+}
